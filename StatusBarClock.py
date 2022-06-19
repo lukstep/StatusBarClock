@@ -8,7 +8,7 @@ class Clock(object):
 	ACTIVE = False
 	FORMAT = ""
 	UPDATE_INTERVAL = 1000 
-
+ 
 	@classmethod
 	def start(cls):
 		settings = sublime.load_settings('StatusBarClock.sublime-settings')
@@ -35,7 +35,7 @@ class Clock(object):
 		now = datetime.datetime.now()
 		try:
 			if cls.ACTIVE:
-				sublime.set_timeout(cls.update, 1000)
+				sublime.set_timeout(cls.update, cls.UPDATE_INTERVAL)
 				for window in sublime.windows():
 					window.active_view().set_status(cls.CLOCK_STATUS_ID, now.strftime(cls.FORMAT))
 			else:
