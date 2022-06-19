@@ -1,0 +1,10 @@
+{
+	// A value indicating whether the clock should be active.
+	"active": true,
+	// The date time format for clock (See https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)
+	"format": "%H:%M:%S %d",
+	// The clock update interval in milliseconds.
+	"updateInterval": 1000,
+	// The clock status bar alignment (Left or Right)
+	"alignment": "left"
+}
