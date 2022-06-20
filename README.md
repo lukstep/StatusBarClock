@@ -2,7 +2,7 @@
 
 The Sublime Text extension provide the clock in status bar
 
-![screenshot](https://user-images.githubusercontent.com/20487002/174497819-2128c15b-7f25-4423-9a79-66dcc88b2e8d.png)
+![screenshot](https://user-images.githubusercontent.com/20487002/174660334-ed271c07-cac0-4a2c-8c01-9dcbc964a299.png)
 
 # Installation
 
