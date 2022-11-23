@@ -28,7 +28,7 @@ class Clock(object):
             try:
                 window.active_view().erase_status(cls.CLOCK_STATUS_ID)
             except Exception as err:
-                print(f"SublimeClock: {err}")
+                print("Status Bar Clock: {}".format(err))
 
     @classmethod
     def update(cls):
@@ -43,7 +43,7 @@ class Clock(object):
             else:
                 cls.stop()
         except Exception as err:
-            print(f"SublimeClock: {err}")
+            print("Status Bar Clock: {}".format(err))
 
 
 def plugin_loaded():
